@@ -25,7 +25,6 @@ export default function Home(){
       <h1>代码写快以后，<br/><span>研发流程反而堵了。</span></h1>
       <p className="lede">Anthropic 的 AI 原生软件开发生命周期，真正改造的不是一段代码，而是计划、设计、构建、测试、部署和维护之间的整条交接链。</p>
       <div className="actions"><Link className="primary" href="/guide">开始阅读</Link><a className="secondary" href="https://claude.com/blog/the-ai-native-sdlc-playbook" target="_blank" rel="noreferrer">核对英文原文 ↗</a><Link className="secondary" href="/guide/templates">下载模板</Link></div>
-      <div className="hero-stats" aria-label="手册规模"><div><strong>14</strong><span>篇文档</span></div><div><strong>6</strong><span>个阶段</span></div><div><strong>20–50</strong><span>个 eval 起步样本</span></div><div><strong>1</strong><span>条可回流产物链</span></div></div>
       <div className="bottleneck" aria-label="瓶颈迁移示意"><div><small>旧瓶颈</small><strong>BUILD</strong><span>人工写代码</span></div><i>→</i><div className="hot"><small>新瓶颈</small><strong>PLAN · TEST · DEPLOY</strong><span>交接、验证与批准</span></div></div>
     </section>
 
